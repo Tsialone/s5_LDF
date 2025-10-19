@@ -1,0 +1,9 @@
+# raha hampiasa docker @postgres elah de 
+docker compose up -d --build 
+# connection
+psql -h localhost -p 5432 -U postgres -d finance_db
+postgres ny mdp
+# ao @ sql/data.sql ny données
+
+# base url
+http://localhost:8080/api/
